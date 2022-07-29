@@ -1,0 +1,29 @@
+. * {
+text-decoration: none;
+font-family: 'Charis SIL', serif;
+}
+.header {
+    height: 20vh; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #d31900;   
+}
+.logo{
+    height:100%; 
+}
+.a-nav{
+    text-decoration: none;
+    font-family: 'Bree Serif';
+    font-weight: 700;
+    font-size: 100%;
+    display: flex;
+    margin: 0px 20px;
+    color: #fff2af;
+}
+.list-nav {
+    list-style: none;
+    display:flex;
+    color: #fff2af;
+    height: 20%; 
+}
