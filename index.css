@@ -1,29 +1,66 @@
-. * {
-text-decoration: none;
-font-family: 'Charis SIL', serif;
+* {
+    font-family: 'Nunito Sans'
+
 }
 .header {
     height: 20vh; 
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
-    background-color: #d31900;   
+    background-color: #7cb490;   
 }
 .logo{
     height:100%; 
 }
-.a-nav{
+.opciones-nav{
     text-decoration: none;
-    font-family: 'Bree Serif';
-    font-weight: 700;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
     font-size: 100%;
     display: flex;
     margin: 0px 20px;
-    color: #fff2af;
+    color: #000000;
 }
 .list-nav {
     list-style: none;
     display:flex;
-    color: #fff2af;
-    height: 20%; 
+    height: 20%;
+    color: #000000; 
+}
+
+.descripcion {
+    background-color: #fff2af ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.logo2 {
+    margin: 0px 20px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 10%;
+    min-width: 200px;
+}
+.d1 {
+
+
+}
+
+
+
+
+
+
+
+.botones {
+    font-size: 1.5em;
+    color: black;
+    background-color: #d31900;
+    border-style: none;
+    margin-top: 15px;
+    border-radius: 12px;
 }
